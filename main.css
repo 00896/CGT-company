@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0px;
+}
+
+main{
+    background-color:white;
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 10px 20px 56px;
+}
+
+footer{ /*отредактировать по условию*/
+    background-color: #005999ec;
+    color:white;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+header{
+    color:black;
+    font-family: Arial;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+a{
+    transition: 1s 0s
+}
+
+a:link, a:visited {
+    text-decoration:none;
+    color:white;
+ }
+
+a:hover {
+    color: white;
+    transition: 0.3s;
+    background-color: #003f6b; 
+ }
+
+ a:active {
+    color: white;
+    font-weight: bold;
+ }
+
+ .menu{
+    background-color: #005999ec;
+    color: white;
+    font-family: Arial;
+    font-size: 21px;
+    text-align: center;
+    padding: 4px;
+}
+
+.menu a{
+    padding: 4px;
+}
