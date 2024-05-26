@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Кобзева Лидия Викторовна. РГЗ</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../favicon-32x32.png">
+        <link rel="icon" href="../favicon-16x16.png">
+        <style>
+            h2{
+                color:#004e86; 
+                text-align: center; 
+                padding:10px 0px 20px 0px;
+            }
+            .message {
+                background-color: #086db5ec;
+                color: white;
+                border: 2px solid #086db5ec;
+                border-radius: 6px;
+                margin: 20px auto;
+                padding: 10px;
+                width: 800px;
+                line-height: 35px;
+                text-align: center;
+                font-size: 18px;
+                display: block;
+
+            }
+            .message-content {
+                flex-grow: 1;
+                padding-bottom: 10px;
+            }
+            .video-container {
+                flex-shrink: 0;
+            }
+
+            .logo{
+                padding:0px 0px 0px 10px;
+            }
+            .logo:hover{
+                background-color: none;
+            }
+            .background{
+                z-index: -1;
+                width: 100%;
+                height: 105px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="index.html">
+                <img src="logo.jpg" alt="Логотип компании 'IC Leader'" width="160" height="60">
+            </a>
+            <img src="background.jpg" class="background">
+            <div class="menu">
+                <a href="company.html">О компании  </a>
+                <a href="news.html">Новости  </a>
+                <a href="exchangerate.html">Курс валют  </a>
+                <a href="contacts.html">Контактные данные  </a>
+                <a href="video.html">Видео  </a>
+                <a href="documents.html">Документы  </a>
+            </div>
+        </header>
+
+        <main>
+            <h2>Видео</h2>
+
+            <div class="message">
+                <div class="message-content">
+                    Предлагаем к ознакомлению
+                </div>
+                <div class="video-container">
+                    <iframe width="780" height="440" src="https://www.youtube.com/embed/GXKAJywjZNo?si=fOLqNLWIc6xlK8lY" frameborder="0" preload="auto"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <hr>
+            &copy; 
+        </footer>
+    </body>
+</html>
