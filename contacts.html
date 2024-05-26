@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Кобзева Лидия Викторовна. РГЗ</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../favicon-32x32.png">
+        <link rel="icon" href="../favicon-16x16.png">
+        <style>
+            h2{
+                color:#004e86; 
+                text-align: center; 
+                padding:10px 0px 10px 0px;
+            }
+            .message{
+                color:black; 
+                padding: 0px 20px 0px 20px;
+                line-height: 35px;
+                text-align: justify;
+                font-size: 18px;
+            }
+
+            .map-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .address {
+                flex-grow: 1;
+                padding-left: 20px;
+            }
+
+            .logo{
+                padding:0px 0px 0px 10px;
+            }
+            .logo:hover{
+                background-color: none;
+            }
+            .background{
+                z-index: -1;
+                width: 100%;
+                height: 105px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="index.html">
+                <img src="logo.jpg" alt="Логотип компании 'IC Leader'" width="160" height="60">
+            </a>
+            <img src="background.jpg" class="background">
+            <div class="menu">
+                <a href="company.html">О компании  </a>
+                <a href="news.html">Новости  </a>
+                <a href="exchangerate.html">Курс валют  </a>
+                <a href="contacts.html">Контактные данные  </a>
+                <a href="video.html">Видео  </a>
+                <a href="documents.html">Документы  </a>
+            </div>
+        </header>
+
+        <main>
+            <h2>Контактная информация</h2>
+            <div class="map-container">
+                <div>
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaf4c2c605b180c509b18612442aeb81a3e3ec653031a8307700195ae54a6b465&amp;source=constructor" 
+                    width="560" height="512" frameborder="0"></iframe>
+                </div>
+                <div class="address">
+                    <div class="message">
+                        <b style="color: #005999ec">Найти вы нас можете по адресу:</b>
+                        <br>117556, Россия, г. Москва, шоссе Варшавское, д. 95, кор. 1, эт. 4, пом. XXXII, ком. 99
+                        <br>
+                        <br><b style="color: #005999ec">Телефон:</b>
+                        <br>+7-495-280-06-03
+                        <br>
+                        <br><b style="color: #005999ec">Адрес электронной почты:</b>
+                        <br>info@ic-leader.ru
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <hr>
+            &copy; 
+        </footer>
+    </body>
+</html>
