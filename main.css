@@ -14,17 +14,6 @@ main{
     margin: 10px 20px 56px;
 }
 
-footer{ /*отредактировать по условию*/
-    background-color: #005999ec;
-    color:white;
-    font-family: Arial;
-    font-size: 16px;
-    margin: 0px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
 
 header{
     color:black;
@@ -40,21 +29,21 @@ a{
 a:link, a:visited {
     text-decoration:none;
     color:white;
- }
+}
 
 a:hover {
     color: white;
     transition: 0.3s;
     background-color: #003f6b; 
- }
+}
 
- a:active {
+a:active {
     color: white;
     font-weight: bold;
- }
+}
 
- .menu{
-    background-color: #005999ec;
+.head{
+    background-color: #004f88ec;
     color: white;
     font-family: Arial;
     font-size: 21px;
@@ -62,6 +51,29 @@ a:hover {
     padding: 4px;
 }
 
-.menu a{
-    padding: 4px;
+.menu-panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #004f88ec;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.menu-panel:hover {
+    transform: scale(1.1);  /*пропорционально изменяет ширину и высоту элемента*/
+    transition: 0.3s;
+}
+
+.menu-panel a {
+    display: inline-block;
+    margin: 0px;
+    color: white;
+    padding: 5px 0px 5px 0px;
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 25px;
 }
